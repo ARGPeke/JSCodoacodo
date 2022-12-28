@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<title>La Paneria</title>
+</head>
+	<body>
+		<header>
+			<div class="container">	
+			<a href="#"><img src="media/codoacodo.png" class="logo" alt></a>
+			<h2 class="paneria">La Paneria</h2>			
+				<nav>
+					<a href="#hero">Nosotros</a>
+					<a href="#especialidades">Especialidades</a>
+					<a href="#sucursales">Donde nos encontramos</a>
+					<a href="#contacto">Contacto</a>
+					<a href="#realizarpedido">Realizar pedido</a>
+				</nav>
+			</div>
+		</header>
+		<section id="hero">
+			<h1 class="titulo">La Paneria</h1>
+				<p class="descripcion"> Desde el corazón de la localidad de Merlo, la Paneria llega para demostrar que los clásicos siguen vivos, especializandonos en el pan de papa. Pero también te invitamos a conocer las nuevas versiones en que realizamos el pan de papa, como lo es el pan de molde, los paninis para unos ricos tostados y más! </p>				
+				<form action="#realizarpedido">
+				<button class="pedido">Realizar pedido</button></form>
+				<form action="#sucursales"><button class="boton-sucursales">Sucursales</button></form>
+		</section>
+		<section id="especialidades">
+			<div class="container">
+				<h2 class="conoce">NUESTRAS <br> <span class="negrita">ESPECIALIDADES</span> </h2>
+				<div class="cartas">
+					<div class="parmesano">
+					<img src="media/parmesano.jpg">
+					<h2>Pan de Parmesano</h2>
+					<p>Un clásico reversionado, como lo es el pan de papa, pero cubierto con parmesano gratinado, para los amantes del queso.</p>
+					</div>
+					<div class="papa">
+					<img src="media/papa.jpg">
+					<h2>Pan de Papa</h2>
+					<p>Siendo la especialidad de la casa y el más elegido, posee una textura suave y esponjosa que nunca deja de sorprender.
+					</p>
+					</div>
+					<div class="paninis">
+					<img src="media/panini.jpg">
+					<h2>Paninis</h2>
+					<p>Una opción para el que decida apostar por algo distinto, pero con la misma esponjosidad y textura. 
+					</p>
+				</div>
+				</div>
+			</div>
+		</section>
+		<section id="sucursales">
+			<div class="container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6411276074045!2d-58.72316654867846!3d-34.66376506808983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbfee0e7a266d%3A0xe563aa7976eaf291!2sGaray%201860%2C%20B1722CON%20Merlo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1663968359875!5m2!1ses!2sar" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="infosuc">
+				<h2>Nuestras Sucursales</h2>
+				<p>Podes encontrarnos actualmente en nuestra sucursal principal, ubicada en la localidad de Merlo a unas pocas cuadras de la estación
+				del tren Sarmiento. </p>
+				<button class="conocemas">Conocé más</button>
+			</div>
+			</div>
+		</section>
+		<section id="contacto">
+			<div class="container">
+			<div class="form"> 
+				<h3>ENVIANOS TU <br><span class="negrita">CONSULTA</span></h3>
+				<form>
+					<div class="nombreapellido">
+					<input type="message" name="#" rows="10"placeholder="Nombre" class="nombre">
+					<input type="text" name="#" placeholder="Apellido" class="apellido">
+					</div>
+					<textarea name="message" rows="10" cols="100" placeholder="¿Sobre que queres saber?" class="solicitud"></textarea>
+					<p>Cualquier consulta es bien recibida.</p>
+					<button class="enviar">Enviar</button>
+				</form>
+			</div>
+			</div>
+		</section>
+		<section id="realizarpedido">
+		<form id="form_pan" method="POST">
+			<div class="card-group">
+	  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Cliente habitual</h5>
+		      <p class="card-text">Tienen un descuento de un</p>
+		      <p>80%</p>
+		      <p class="card-text"><small class="text-muted">*presentar ultimos 5 ticket de compra</small></p>
+		    </div>
+		  </div>
+			  <div class="card">
+		    <div class="card-body">
+			      <h5 class="card-title">Jubilado</h5>
+		      <p class="card-text">Tiene un descuento de un</p>
+			      <p>50%</p>
+		      <p class="card-text"><small class="text-muted">*presentar documentacion</small></p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-body">
+		      <h5 class="card-title">Abonando en contado</h5>
+		      <p class="card-text">Tiene un descuento de un </p>
+		      <p>15%</p>
+			      <p class="card-text"><small class="text-muted">*valido unicamente efectivo y tarjeta de debito</small></p>
+			    </div>
+			  </div>
+		</div>
+		<div class="h2venta">
+			<p>VENTA</p>
+			<h2>PRECIO KG DE PAN $200</h2></div>
+			<div class="row">
+				<div class="col p-1">
+		  <input type="text" id="InputNombre" class="form-control" placeholder="Nombre">
+		  		</div>
+		  		<div class="col p-1">
+		  <input type="text" aria-label="Apellido" class="form-control" placeholder="Apellido">
+		  </div>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col p-1">
+			<input type="email" id="inputEmail" placeholder="Correo" class="form-control">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col p-1">
+				<label for="cantidad">Cantidad</label>
+				<input type="number" id="cantidad" class="form-control" placeholder="Cantidad">
+			</div>
+			<div class="col p-1">
+				<label for="categorias">Categoria</label>
+				<select id="categorias" class="form-select">
+				<option value="ClHabitual"> Cliente Habitual</option>
+				<option value="Jubilado"> Jubilado </option>
+				<option value="Contado"> Contado </option>
+				</select>
+			</div>
+		</div>
+		<div class="row" id="liveAlertPlaceholder"></div>
+
+		<div class="col p-1">
+			<button type="reset" class="btn btn-succes w-100" style="background-color:#b5541a ; border-color: #381a08;">Borrar</button>
+		</div>
+		<div class="col p-1">
+		<button type="submit" id="liveAlertBtn" class="btn btn-success w-100" style="background-color: #b5541a"; border-color: #381a08;>Resumen</button>
+		</div>
+		</form>
+		</section>
+			<div class="subir">
+				<form action="#">
+				<button>Subir</button>
+				</form>
+			</div>
+		<footer id="piepagina">
+			<div class="container">
+				<a href="#">Preguntas Frecuentes</a>
+				<a href="#contacto">Contáctanos</a>
+				<a href="#">Terminos y condiciones</a>
+				<a href="#">Privacidad</a>
+				<a href="#especialidades">Especialidades</a>
+			</div>
+		</footer>
+	<script src="Script.js"></script>
+	</body>
+</html>

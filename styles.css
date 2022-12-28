@@ -1,0 +1,449 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	max-width: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+}
+
+
+header {
+	background:#281101 ;
+	margin: 0;
+}
+
+header .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} 
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 2em ;
+}
+
+header a:hover {
+	color: #151515;
+
+}
+
+header a{
+	padding: 5px 12px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #F1F1F1 ;
+}
+
+button:hover {
+	background: #151515;
+}
+
+button { 
+	font-size: 1.5em;
+	background: #6D3B00;
+	border-radius: .18em;
+	border-style:none ;
+	padding: 10px 20px;
+	color: #fff;
+
+}
+
+div.subir { 
+	margin-left: 10px;
+	margin-bottom: 2px;
+	position: sticky;
+	bottom: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+
+.logo {
+	width: 10em;
+	height: 6em;
+}
+
+.paneria {
+	font-size: 3em;
+	font-weight: bold;
+	color: #F1F1F1;
+}
+
+h1 {font-size: 2.7em;}
+h2 {font-size: 1.7em;}
+h3 {font-size: 1.5em;}
+p {font-size: 1em;}
+
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+
+#hero {
+	display: flex;
+	color: #fff;
+	align-items: right; 
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 90vh;
+	background-image: linear-gradient(
+		0deg, rgba(0, 0, 0, .5),
+			  rgba(0, 0, 0, .5)) 
+	,url("media/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#hero .boton-sucursales:hover {
+	background:#151515;
+}
+
+
+#hero .boton-sucursales {
+	background: none;
+	border: 1px solid white;
+}
+
+#hero .pedido:hover {
+		background:#151515;
+}
+
+#hero .pedido {
+	background: #6D3B00;
+	border: none;
+
+}
+
+.titulo, .descripcion, .boton-sucursales, .pedido {
+	margin: 10px 10px;
+}
+
+.conoce {
+	text-align: center;
+	font-weight: lighter;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+#especialidades {
+	background: #EEEEEE;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	color: #151515;
+	font-weight: bold;
+	text-align: center;	
+}
+
+#especialidades .conoce {
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+#especialidades .parmesano {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 250px;
+}
+
+#especialidades .papa {
+	margin-bottom: 250px;
+	width: 400px;
+	height: 400px;
+}
+
+#especialidades .paninis {
+	margin-bottom: 250px;
+	width: 400px;
+	height: 400px;
+}
+
+
+#especialidades h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#sucursales {
+	background-color: #281101;
+	color: #D6D6D6;
+	padding: 5px;
+}
+
+#sucursales .infosuc {
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 12px;
+}
+
+#sucursales p {
+	margin-bottom: 10px;
+}
+
+#sucursales .infosuc h2 {
+	margin-bottom: 20px;
+}
+
+#sucursales .conocemas {
+	margin-top: 10px;
+}
+
+#contacto h3 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#contacto .container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: #151515;
+}
+
+
+#contacto form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+#contacto .nombreapellido {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+
+#contacto .form .nombre {
+	width: 250px;
+	height: 30px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 4px;
+	margin-right: 50px;
+}
+
+
+#contacto .form .apellido {
+	width: 250px;
+	height: 30px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 4px;
+}
+
+#contacto .form .solicitud{
+	font-size: 20px;
+	padding: 20px;
+	width: 550px ;
+	height: 90px;
+	border-radius: 5px;
+}
+
+#contacto form p {
+	font-size: .9em;
+	margin-top: 10px;
+	color: rgba(0, 0, 0, .60);
+}
+
+
+#contacto .negrita {
+	font-size: 2em;
+}
+
+#contacto .enviar {
+	margin-top: 1.4vw;
+	width: 550px;
+}
+
+#realizarpedido {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bold;
+	text-align: center;	
+}
+#piepagina {
+	background:#281101;
+}
+
+#piepagina .container {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#piepagina a:hover {
+	color:#151515
+}
+#piepagina a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEEEEE ;
+	font-size: 6px;
+	margin: 10px 20px;
+
+}
+
+
+@media (min-width: 1000px){
+	header {
+		position: fixed;
+		width: 100%;
+	}
+
+	header .container {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: right;
+		font-size: 1em;
+	}
+
+	header nav {
+		flex-direction: row;
+		padding-bottom: 0;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	#hero {
+	align-items: flex-end; 
+	justify-content: center;
+	text-align: right;
+	flex-direction: column;
+	}
+
+	#hero .descripcion{
+		font-size: 20px;
+		max-width: 650px;
+	}	
+
+	#hero .titulo, .descripcion, .boton-sucursales, .pedido {
+		margin-right: 150px;
+}
+
+  #especialidades .cartas {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	margin-top: 20px;
+  }
+
+  #especialidades .parmesano {
+  	margin-right: 80px;
+  	width: 300px;
+  	height: 300px;
+  }
+
+  #especialidades .papa {
+  	margin-right: 80px;
+  	width: 300px;
+  	height: 300px;
+  }
+
+  #especialidades .paninis {
+  	width: 300px;
+  	height: 300px;
+  }
+
+  #sucursales .container {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: flex-start;
+  	flex-direction: row;
+  }
+
+  #sucursales .infosuc {
+  	text-align: initial;
+  	padding-left: 40px;
+  	max-width: 700px;
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	margin-left: 0px;
+  }
+
+  #sucursales .conocemas{
+  	height: 50px;
+  	width: 150px;
+  	padding: 0;
+  }
+  #contacto .form {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  }
+
+  #contacto .apellido {
+  		margin-left: 50px;
+  }
+  
+
+  #contacto .form p {
+  	margin-right: 0px;
+  }
+
+	#contacto .form .nombre {
+		width: 400px;
+		padding: 15px 10px;
+}
+
+
+  #contacto .form .apellido {
+  	width: 400px;
+  	padding: 15px 10px;
+  }
+
+  #contacto .form .solicitud {
+  	width: 900px;
+  }
+
+  #contacto .form .enviar {
+  	width: 900px;
+  }
+
+  #realizarpedido .card {
+  	 display: flex;
+  	 width: 300px;
+  	 margin-left: 20px;
+  	margin-top: 20px;
+  }
+
+  .card-group {
+  	margin-bottom: 20px;
+  }
+
+  
+  .form-control {
+  	margin-top: 20px;
+  }
+
+ #piepagina a {
+ 	font-size: 14px;
+ 	display: flex;
+ 	align-items: initial; 
+}
